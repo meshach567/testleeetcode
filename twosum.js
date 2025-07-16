@@ -17,7 +17,7 @@ function twoSum(nums, target) {
     }
 }
 
-console.log(twoSum([2, 7, 11, 15], 9)); // Output: [0, 1]
+    console.log(twoSum([2, 7, 11, 15], 9)); // Output: [0, 1]
 
 //Explanation:
 //We use a hash map to store the numbers and their indices. For each number, we check if the complement (target — current number) exists in the map. If it does, we return the indices.
